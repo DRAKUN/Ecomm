@@ -20,6 +20,7 @@ class AppKernel extends Kernel
             new Drak\EcommerceBundle\DrakEcommerceBundle(),
             new FOS\UserBundle\FOSUserBundle(),
             new Drak\UtilisateursBundle\DrakUtilisateursBundle(),
+            new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

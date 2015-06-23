@@ -3,7 +3,6 @@
  * Created by PhpStorm.
  * User: drak
  * Date: 23/06/15
- * Time: 06:11
  */
 
 namespace Drak\EcommerceBundle\DataFixtures\ORM;

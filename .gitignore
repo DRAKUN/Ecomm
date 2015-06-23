@@ -37,4 +37,8 @@
 # Composer PHAR
 /composer.phar
 
-.idea/workspace.xml
+<<<<<<< HEAD
+.idea/*
+=======
+.idea/*
+>>>>>>> rendre-le-site-ecommerce

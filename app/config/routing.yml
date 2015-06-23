@@ -1,3 +1,7 @@
+drak_page:
+    resource: "@DrakPageBundle/Resources/config/routing.yml"
+    prefix:   /
+
 drak_utilisateurs:
     resource: "@DrakUtilisateursBundle/Controller/"
     type:     annotation

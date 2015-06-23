@@ -1,3 +1,8 @@
+drak_page:
+    resource: "@DrakPageBundle/Controller"
+    type:     annotation
+    prefix:   /
+
 drak_utilisateurs:
     resource: "@DrakUtilisateursBundle/Controller/"
     type:     annotation

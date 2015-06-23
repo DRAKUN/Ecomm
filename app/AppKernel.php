@@ -21,6 +21,7 @@ class AppKernel extends Kernel
             new FOS\UserBundle\FOSUserBundle(),
             new Drak\UtilisateursBundle\DrakUtilisateursBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
+            new Drak\PageBundle\DrakPageBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

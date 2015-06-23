@@ -34,7 +34,7 @@ class LoadCategoriesData extends AbstractFixture implements OrderedFixtureInterf
     {
 
         $categories1 = new Categories();
-        $categories1->setNom("Legumes");
+        $categories1->setNom("Legumes Pomme");
         $categories1->setImage($this->getReference('media1'));
         $manager->persist($categories1);
 
